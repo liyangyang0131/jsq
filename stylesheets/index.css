@@ -1,0 +1,168 @@
+body{
+	margin:0;
+	font-family:'Helvetica Neue LT Pro';
+}
+
+.kuang{
+	width:360px;
+	height:590px;
+	border:1px solid #eee;
+	background:#e4e3e2;
+	margin:40px auto;
+
+	position:relative;
+}
+.time{
+	width:100%;
+	height:40px;
+	text-align: center;
+	line-height:40px;
+	color:#fff;
+	background:#757575;
+}
+.showscreen{
+	width:340px;
+	height:100px;
+	border:3px solid #333;
+	background:#767676;
+	margin:15px auto 10px;
+	border-radius:5px;
+	color:#fff;
+}
+.show{
+	width:100%;
+	height:70px;
+	margin-top:15px;
+
+	text-align:right;
+	line-height:70px;
+	font-size:60px;
+}
+.clear{
+	clear:both;
+}
+.item{
+	width:70px;
+	height:50px;
+	background:#595958;
+	float:left;
+	margin:10px;
+	border-radius:5px;
+	box-shadow: 0 1px 8px #5e5d5d;
+	text-align:center;
+	line-height:50px;
+	font-size:28px;
+	color:#fff;
+
+	cursor:pointer;
+}
+.height{
+	height:118px;
+	background-image: linear-gradient(#FF2828,#FF4400);
+	opacity:0.7;
+	float:right;
+	line-height:118px;
+}
+.long{
+	width:158px;
+	background:#f5f5f5;
+	color:#333;
+}
+/*.baih{
+	background:#ccc;
+}
+.bg{
+	background:#f5f5f5;
+	color:#333;
+}*/
+
+.da{
+	width:590px;
+	height:360px;
+	border:1px solid #e0e0e0;
+	background:#e0e0e0;
+	margin:40px auto;
+}
+.pingmu{
+	width:570px;
+	height:35px;
+	margin:24px auto 5px;
+	border:2px solid #333;
+	background:#767676;
+	border-radius:5px;
+
+}
+.ton-left{
+	width:294px;
+	float:left;
+}
+.xiao{
+	width:63px;
+	height:38px;
+	float:left;
+	background:#f5f5f5;
+	color:#333;
+	margin:5px;
+	border-radius:5px;
+
+	text-align:center;
+	line-height:38px;
+	
+	font-size:18px;
+	color:#333;
+}
+.ton-right{
+	width:294px;
+	float:right;
+}
+.items{
+	width:63px;
+	height:38px;
+	background:#a8a8a8;
+	float:left;
+	margin:5px;
+	border-radius:5px;
+
+	text-align:center;
+	line-height:38px;
+
+	font-size:18px;
+	color:#fff;
+}
+.height-x{
+	height:86px;
+	background:#ff6700;
+	opacity:0.7;
+	float:right;
+	line-height:86px;
+}
+.long-x{
+	width:136px;
+	background:#f5f5f5;
+	color:#333;
+}
+.baih{
+	background-image:linear-gradient(#8d8d8d,#626262);
+	box-shadow: 0 1px 8px #8a8989;
+}
+.bg{
+	background-image:linear-gradient(#fbf9f7,#f0efec);
+	color:#585451;
+}
+
+.more{
+	width:100px;
+	height:20px;
+	text-align: center;
+	line-height:20px;
+	font-size: 12px;
+	color:#fff;
+	background:#333;
+
+	position:absolute;
+	left:46%;
+	top:100px;
+	z-index:10;
+
+	display: none;
+}
