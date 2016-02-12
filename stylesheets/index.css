@@ -3,6 +3,7 @@ body{
 	font-family:'Helvetica Neue LT Pro';
 	background:url(../images/bg.jpg) no-repeat;
 	background-size:cover;
+	-webkit-user-select: none;
 }
 @keyframes dong {
 	0%{
@@ -19,7 +20,7 @@ body{
 	width:128px;
 	height:128px;
 	position:absolute;
-	right:100px;
+	right:120px;
 	top:260px;
 	background:url(../images/left.png);
 	opacity:0.8;
@@ -30,8 +31,7 @@ body{
 	height:590px;
 	border:1px solid #eee;
 	background:#e4e3e2;
-	margin:40px auto;
-
+	margin:40px auto 30px;
 	position:relative;
 }
 .time{
